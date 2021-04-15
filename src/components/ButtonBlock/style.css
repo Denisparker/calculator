@@ -1,0 +1,15 @@
+.buttonBlock {
+  margin: 24% 0;
+  height: 79%;
+  width: 100%;
+  display: grid;
+  grid-template:
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    'null null . .';
+  grid-template-columns: 25% 25% 25% 25%;
+  position: absolute;
+  background-color: rgb(100, 12, 27);
+}

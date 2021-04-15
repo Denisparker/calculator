@@ -1,0 +1,12 @@
+.App {
+  box-sizing: border-box;
+  height: 32.5rem;
+  width: 28rem;
+  position: absolute;
+  left: 30vw;
+  top: 2.5rem;
+  background-color: slategray;
+  border: 0.2rem solid rgb(93, 106, 119);
+  border-radius: 1%;
+  cursor: pointer;
+}

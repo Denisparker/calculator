@@ -1,0 +1,21 @@
+.InputBlock {
+  height: 20%;
+  position: absolute;
+  width: 100%;
+  background-color: #b3b3b3;
+}
+
+.Input {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 3rem;
+  cursor: pointer;
+  text-align: right;
+  border: none;
+}
+
+.Input:focus {
+  outline: none;
+}

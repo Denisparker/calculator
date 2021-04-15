@@ -1,0 +1,43 @@
+.buttonBlock {
+  margin: 24% 0;
+  height: 79%;
+  width: 100%;
+  display: grid;
+  grid-template:
+    'C C . .'
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    'null null . .';
+  grid-template-columns: 25% 25% 25% 25%;
+  position: absolute;
+  background-color: rgb(100, 12, 27);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #5d5c61;
+  font-size: 1.7rem;
+}
+
+.buttYellow {
+  background-color: rgb(240, 133, 3);
+}
+
+.null {
+  grid-area: null;
+}
+
+.C {
+  grid-area: C;
+}
+
+.button:hover {
+  box-shadow: 0 2px 30px rgba(255, 235, 235, 0.1);
+  opacity: 0.95;
+}
